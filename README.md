@@ -13,30 +13,6 @@ Here Ihave used Indian movie face dataset, which is a large unconstrained face d
 •	Splitting of the data into test and train.
 •	Also used autoencoder to reduce data dimensions by learning how to ignore the noise in the data.
 
-# Model Architecture 
-
-•	BatchNormalization(input_shape = (32,32,3)),
-•	Convolution2D(28,(3,3), activation='linear'),
-•	LeakyReLU(alpha = 0.3),
-•	BatchNormalization(),
-•	Convolution2D(32,(3,3), activation='linear'),
-•	LeakyReLU(alpha = 0.3),
-•	BatchNormalization(),
-•	MaxPooling2D(),
-•	Convolution2D(64,(3,3), activation='linear'),
-•	LeakyReLU(alpha = 0.3),
-•	BatchNormalization(),
-•	Convolution2D(128,(3,3), activation='linear'),
-•	LeakyReLU(alpha = 0.3),
-•	BatchNormalization(),
-•	MaxPooling2D(pool_size=(2, 2)),
-•	Flatten(),
-•	Dropout(0.2),
-•	Dense(384, activation='linear'),
-•	LeakyReLU(alpha = 0.3),
-•	Dropout(0.2),
-•	Dense(3, activation='softmax')
-
 # Model Metrics
 
 •	Accuracy : 0.7105
