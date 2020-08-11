@@ -2,7 +2,7 @@
 The task is to predict the age of a person from his or her facial attributes. For simplicity, the problem has been converted to a multi-class problem with classes as Young, Middle and Old. Here the problem is found to be of Computer Vision.  So we have to train the model in such a way that it can predict the age of the actor as young, middle age or old.
 
 # Dataset
-Here Ihave used Indian movie face dataset, which is a large unconstrained face database consisting of 34512 images of 100 Indian actors collected from more than 100 videos. All the images are manually selected and cropped from the video frames resulting in a high degree of variability interms of scale, pose, expression, illumination, age, resolution, occlusion, and makeup. IMFDB is the first face database that provides a detailed annotation of every image in terms of age, pose, gender, expression and type of occlusion that may help other face related applications. This dataset is available at http://cvit.iiit.ac.in/projects/IMFDB/
+Here I have used Indian movie face dataset, which is a large unconstrained face database consisting of 34512 images of 100 Indian actors collected from more than 100 videos. All the images are manually selected and cropped from the video frames resulting in a high degree of variability interms of scale, pose, expression, illumination, age, resolution, occlusion, and makeup. IMFDB is the first face database that provides a detailed annotation of every image in terms of age, pose, gender, expression and type of occlusion that may help other face related applications. This dataset is available at http://cvit.iiit.ac.in/projects/IMFDB/
 
 # Steps applied to solve the problem
 
